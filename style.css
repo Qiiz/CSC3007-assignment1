@@ -1,1 +1,22 @@
+h1 {
+  text-align: center;
+}
+th {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+p {
+  padding-left: 60px;
+  padding-top: 20px;
+}
 
+button {
+  float: right;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+.container {
+  display: grid;
+  grid-gap: 50px;
+  background-color: rgb(120, 189, 216);
+}

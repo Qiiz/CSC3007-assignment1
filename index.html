@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <link>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -9,31 +9,35 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- Styleshee import -->
+    <link rel="stylesheet" href="./style.css">
+
     <title>CSC3007 Lab Assignement 1</title>
   </head>
-  <body>
+  <div>
     <h1>Real Time PSI Reading</h1>
-    <table class="table table-hover">
-      <thead>
-        <tr>
-          <th>Metric</th>
-          <th>National</th>
-          <th>Central</th>
-          <th>West</th>
-          <th>East</th>
-          <th>North</th>
-          <th>South</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>National</th>
+                <th>Central</th>
+                <th>West</th>
+                <th>East</th>
+                <th>North</th>
+                <th>South</th>
+              </tr>
+            </thead>
+            <tbody id="table" ></tbody>
+          </table>
+    </div>
+        
+        <p id="p"></p>
+      </div>
+    </div>
     <!-- JS import -->
     <script src="./src.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

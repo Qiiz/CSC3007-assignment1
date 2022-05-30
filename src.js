@@ -33,7 +33,7 @@ async function render() {
   var text = document.createTextNode("Last Sync(24h): " +date);
   paragraph.appendChild(text);
 
-  // Generate table
+  // Generate tablegit
   keys.forEach((key) => {
     $('tbody').append(
       '<tr><td>' +

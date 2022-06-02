@@ -17,5 +17,13 @@ button {
   display: grid;
   padding-top: 30px;
 }
-
+#content {
+  position: relative;
+}
+#content img {
+position:absolute;
+top:0px;
+right:0;
+width: 100px;
+}
 

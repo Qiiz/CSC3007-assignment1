@@ -2,11 +2,9 @@ h1 {
   text-align: center;
 }
 th {
-  color: rgb(255, 255, 255);
   font-weight: 800;
 }
 p {
-  padding-left: 60px;
   padding-top: 20px;
 }
 
@@ -17,6 +15,16 @@ button {
 }
 .container {
   display: grid;
-  grid-gap: 50px;
-  background-color: rgb(120, 189, 216);
+  padding-top: 30px;
 }
+
+#content {
+    position: relative;
+}
+#content img {
+  position:absolute;
+  top:0px;
+  right:0;
+  width: 100px;
+}
+

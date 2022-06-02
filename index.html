@@ -13,34 +13,41 @@
 
     <!-- Styleshee import -->
     <link rel="stylesheet" href="/style.css">
-    <link rel="js" href="/src.css">
+    <link rel="js" href="/src.js">
 
 
     <title>CSC3007 Lab Assignement 1</title>
   </head>
-  <div>
-    <h1>Real Time PSI Reading</h1>
-    <div class="container">
-        <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>Metric</th>
-                <th>National</th>
-                <th>Central</th>
-                <th>West</th>
-                <th>East</th>
-                <th>North</th>
-                <th>South</th>
-              </tr>
-            </thead>
-            <tbody id="table" ></tbody>
-          </table>
+    <div>
+      <h1>Real Time PSI Reading</h1>
+      <div id="content">
+        <img src="./sunny.png"/>
     </div>
-        
-        <p id="p"></p>
-      </div>
+        <div class="container">
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                    <th>Metric</th>
+                    <th>National</th>
+                    <th>Central</th>
+                    <th>West</th>
+                    <th>East</th>
+                    <th>North</th>
+                    <th>South</th>
+                  </tr>
+                </thead>
+                <tbody id="table" ></tbody>
+              </table>
+              <p id="p"></p>
+        </div>
+
     </div>
+
+
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./src.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
